@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<<<<<<< HEAD
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="generator" content="pandoc" />
+
+
+
+<title></title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="About_files/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+<style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet"
+      href="About_files/highlight/default.css"
+      type="text/css" />
+<script src="About_files/highlight/highlight.js"></script>
+<!-- no matter what the highlighting style only shade R and C++ -->
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+
+=======
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Binomial Operating Characteristic Curves</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+<!-- MathJax scripts -->
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+>>>>>>> ff7a7bfd60e54dd4262f98da8c2a515f563cc116
+
+
+
+</head>
+
+<body>
+<<<<<<< HEAD
+
+<div class="container">
+
+
+
+
+<!--
+You have to include the code snippet above, before the page title, in order 
+NOT to produce standalone HTML document. Standalone document will ruin the 
+sidepanel inputs. 
+-->
+
+<div id="binomial-operating-characteristic-curves" class="section level1">
+<h1>Binomial Operating Characteristic Curves</h1>
+<p>This web application calculates and plots operating characterstic curves for up to four tests.</p>
+<div id="input-parameters" class="section level2">
+<h2>Input Parameters</h2>
+<p>Input parameters for the app include:</p>
+<ol style="list-style-type: decimal">
+<li>Number of shots for each test<br /></li>
+<li>Number of failures for each test</li>
+</ol>
+<p>By default all four tests are plotted. The user can modify the number of tests plotted by unselecting checkbox next to the test entry values.</p>
+</div>
+<div id="modifying-plot-attributes" class="section level2">
+<h2>Modifying Plot Attributes</h2>
+<p>To modify plot attributes just check the checkbox next to the “Modify Plot Attributes” on the left side panel.<br />This allows the user to customize the plot such as changing the plot title, axes titles, test names, text sizes, thickness of lines, and other functionalities.</p>
+</div>
+<div id="downloads" class="section level2">
+<h2>Downloads</h2>
+<p>The user can download the full dataset generated and plotted by the app by clicking on the “Download Data Sample” botton on the lower left side of the page.<br />To download the plot in PDF or PNG formats just click the corresponding botton on the lower left side of the page.</p>
+</div>
+<div id="more-resources" class="section level2">
+<h2>More Resources:</h2>
+<ol style="list-style-type: decimal">
+<li><a href="http://spark.rstudio.com/statstudio/OC5/">Operating Characterstic Curve plotting calculator</a>. Similar to this app but for continuous response data.<br /></li>
+<li><a href="http://spark.rstudio.com/statstudio/MTBF/">Mean Time Between Failure calculator with confidence intervals</a><br /></li>
+<li><a href="http://spark.rstudio.com/statstudio/MTBFTestTime/">Mean Time Between Failure required test time calculator</a></li>
+</ol>
+</div>
+<div id="the-binomial-distribution" class="section level2">
+<h2>The Binomial Distribution</h2>
+<p>The binomial distribution describes the outcome of an experiment where the outocme can take one of two possible values. The two possible values for the outcome are things like pass/fail, hit/miss, success/fail, and so forth.</p>
+<p>For an experiment with <code>n</code> independent trials where the probability of success is <code>p</code>, the probability of having <code>x</code> successful outocome in the experiment is given by the probability mass function:</p>
+<p><span class="math">\[
+\begin{aligned}
+f(x) &amp; = {n \choose x} \, p^x \, (1-p)^{n-x} \,\, \mbox{   for  } x=0, 1, 2, ..., n\\
+\mbox{ where }{n \choose x} &amp; = \frac{n!}{x!(n-x)!} \mbox{ is the binomial coefficient}
+\end{aligned}
+\]</span></p>
+<p>The binomial coefficient represents the number of different ways one can have <code>x</code> successes in <code>n</code> trials.</p>
+<p>This app calculates the probability of success given a number of shots and a number of failures as a function of the proportion defective.</p>
+<div class="references">
+
+</div>
+</div>
+</div>
+
+
+</div>
+
+<!-- dynamically load mathjax for compatibility with --self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
+=======
+<h1>Binomial Operating Characteristic Curves</h1>
+
+<p>This web application calculates and plots operating characterstic curves for up to four tests. </p>
+
+<h2>Input Parameters</h2>
+
+<p>Input parameters for the app include:  </p>
+
+<ol>
+<li>Number of shots for each test<br/></li>
+<li>Number of failures for each test</li>
+</ol>
+
+<p>By default all four tests are plotted. One can modify the number of tests plotted by unselecting checkbox
+next to the test entry values. </p>
+
+<h2>Modifying Plot Attributes</h2>
+
+<p>To modify plot attributes just check the checkbox next to the &ldquo;Modify Plot Attributes&rdquo; on the left side panel.<br/>
+This allows the user to customize the plot such as changing the plot title, axes titles, test names, text sizes, thickness of lines, and other functionalities. </p>
+
+<h2>Downloads</h2>
+
+<p>The user can download the full dataset generated and plotted by the app by clicking on the &ldquo;Download Data Sample&rdquo; botton 
+on the lower left side of the page.  </p>
+
+<p>To download the plot in PDF or PNG formats just click the corresponding botton on the lower left side of the page. </p>
+
+<h2>More Resources:</h2>
+
+<ol>
+<li><a href="http://spark.rstudio.com/statstudio/OC5/">Operating Characterstic Curve plotting calculator</a>. Similar to this app but for continuous response data.<br/></li>
+<li><a href="http://spark.rstudio.com/statstudio/MTBF/">Mean Time Between Failure calculator with confidence intervals</a><br/></li>
+<li><a href="http://spark.rstudio.com/statstudio/MTBFTestTime/">Mean Time Between Failure required test time calculator</a></li>
+</ol>
+
+<p>\[ 
+\begin{aligned}
+\dot{x} & = \sigma(y-x) \\
+\int x \, dx& = \frac{x^2}{2} + C
+\end{aligned}
+ \]</p>
+
+</body>
+
+</html>
+
+>>>>>>> ff7a7bfd60e54dd4262f98da8c2a515f563cc116
